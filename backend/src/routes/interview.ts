@@ -4,7 +4,7 @@ import path from 'path';
 import multer from 'multer';
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const pdfParse = require('pdf-parse');
-import { chat } from '../services/ollama';
+import { chat } from '../services/gemini';
 
 const router = Router();
 const promptsDir = path.join(__dirname, '../../prompts');
